@@ -1,0 +1,6 @@
+main: com.trees.plugin.ArmorMain
+name: ArmorMain
+version: 1.0
+author: me
+description: it do
+commands:
