@@ -19,6 +19,10 @@ import org.bukkit.inventory.ItemStack;
 
 import com.trees.plugin.ArmorEquipEvent.EquipMethod;
 
+/**
+ * @author Arnah
+ * @since Feb 08, 2019
+ */
 public class ArmorListener implements Listener{
 
 	private final List<String> blockedMaterials;
@@ -170,6 +174,7 @@ public class ArmorListener implements Listener{
 			if(armorEquipEvent.isCancelled()){
 				ItemStack i = e.getBrokenItem().clone();
 				i.setAmount(1);
+				// https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemStack.html#setDurability-short-
 				i.setDurability((short) (i.getDurability() - 1));
 				if(type.equals(ArmorType.HELMET)){
 					p.getInventory().setHelmet(i);

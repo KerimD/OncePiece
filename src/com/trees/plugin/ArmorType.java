@@ -3,6 +3,10 @@ package com.trees.plugin;
 // import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * @author Arnah
+ * @since Feb 08, 2019
+ */
 public enum ArmorType{
 	HELMET(5), CHESTPLATE(6), LEGGINGS(7), BOOTS(8);
 

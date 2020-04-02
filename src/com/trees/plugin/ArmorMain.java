@@ -6,6 +6,10 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * @author Arnah
+ * @since Feb 08, 2019
+ */
 public class ArmorMain extends JavaPlugin implements Listener {
 
 	@Override
